@@ -1,0 +1,21 @@
+a=int(input("Enter the no. of test cases: "))
+b=1
+ctz=0
+cto=0
+while(b<=a):
+    str=input("Enter the string: ")
+    n=len(str)
+    for i in range(0,n):
+        if(str[i]=='0'):
+            ctz+=1
+        else:
+            cto+=1
+    if(ctz!=cto):
+        print("no")
+    else:
+        print("yes")
+    ctz=0
+    cto=0
+    str=""
+    n=0
+    b+=1

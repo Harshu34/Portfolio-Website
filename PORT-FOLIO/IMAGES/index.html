@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/01cc1d293e.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="../IMAGES/folio.jpg" class="logo">
+                <!-- <div class="logo"><b>Portfolio</div> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Interest</a></li>
+                    <li><a href="#portfolio">My Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Designer</p>
+                <h1>Hi, i'm <span><br>Harsh Kumar Yadav</span><br> from Uttarakhand.</h1>
+            </div>
+        </div>
+    </div>
+    
+
+<!-- .................About...................... -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="../IMAGES/pic_profile.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi there, I am Harsh and i am<span class="role"> Front-end Web Developer</span> , curently pursuing Bachelor's with Computer Science and Engineering,i am working as a web development and designer intern at Oasis infobyte. I have keen interest to know new technologies with new environment and making to comfort myself to adapt this easily, passionate to learning  new things on daily basis,which makes me more and more confident on my carrer path.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span class="co">Web designer</span></li>
+                            <li><span class="c01">Problem-Solving</span></li>
+                            <li><span class="co">C++</span></li>
+                            <li><span class="c01">Python</span></li>
+                            <li><span class="co">Javascript</span></li>
+                            <li><span class="c01">Tailwind</span></li>
+                            <li><span class="co">Node.js</span></li>
+                            <li><span class="c01">Express.js</span></li>
+                            <li><span class="co">Postman API</span></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span class="c2">2021 - Current</span><br>Bachelor's with Computer Science and Engineering from College of Engineering Roorkee.</li>
+                            <li><span class="c2">2020 - 2021</span><br>Intermediate from Maharishi Vidya Mandir with a score of 96%.</li>
+                            <li><span class="c2">2018 - 2019</span><br>Matric from Maharishi Vidya Mandir with a score of 90%.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span class="c2">September 2022 - Current</span><br>Web Development and Desigining Intern @ Oasis Infobyte.</li>
+                            <li><span class="c2">July 2021 - September 2021</span><br>Designing Analyst intern @ DIM.</li>
+                            <li><span class="c2">Jan 2021 - Jun 2021</span><br>Subject Matter Expert @ Vedantu.</li>
+                            <li><span class="c2">Certified from Exclusive React Bootcamp</span><br>This is a front web application library (React) bootcamp conducted by scaler academy.This knows me how this library works our work easy by working on the components and a wordle project is going to happened in this bootcamp.</li>
+                            <li><span class="c2">Certified from Recipe API Backend Development</span><br>This is a 7 day bootcamp program of Recipe API Backend web development conducted by devtown. Couple of things were let to know about working on backend fundamentals like nodej.s,express.js ,Postman(API) and a backend project.</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ................Interest........... -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Interest</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I have keen interest in web desigining as this is my major skill right now</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Problem-Solving</h2>
+                    <p>I have solved many problematic problems and puzzles in computer programming and also hands on some real world problems</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-people-group"></i>
+                        <h2>Team building</h2>
+                    <p>Familiarity with the team task and build the group</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ..................My Work....................... -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"> My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="../IMAGES/food.jfif">
+                    <div class="layer">
+                        <h3>Food Delivery Website</h3>
+                        <p>This food deliever website mainly contains 5 sections i.e Top products, Our services, Big Deals, Blogs and Maps having good loooking.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="../IMAGES/calculator.jpg">
+                    <div class="layer">
+                        <h3>Calculator Website</h3>
+                        <p>This Website contains calculator which we can do basic calculation such as Subtraction, Addition, Multipliaction and Divison.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="../IMAGES/gj.jpg">
+                    <div class="layer">
+                        <h3>Gym website</h3>
+                        <p>This Gym website mainly contains 4 sections i.e Home, About Us, Fitness Calcualtor and Contact Us</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ................Contact................... -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>ajayharsh869@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 9719680003</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/harshkumar.yadav.3990"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/harsh_kumar_yadav9719/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="www.github.com/harsh_kumar_yadav9719"><i class="fa-brands fa-github"></i></a>
+                        <a href="www.linkedin.com/in/harshkumaryadav9719"><i class="fa-brands fa-linkedin"></i></i></a>
+                    </div>
+                    <a href="../IMAGES/Harsh KumarYadav_Resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Harsh's Portfolio <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwvGYptKri3TjikgynRsRJ3HIL8CeSGl4tNHgXoP9UYCgYKnwpe18jpb9DPxjVHaZ7PPw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg");
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully!"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
