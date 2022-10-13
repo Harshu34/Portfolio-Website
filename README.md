@@ -1,1 +1,1 @@
-# Portfolio-Website
+This is my portfolio website which contains ( Home section ) which contains about my PROFESSION / ROLE and the PROFILE pic, the second section is ( About section ) which contains 3 sub parts- SKILLS, EDUCATION AND EXPERIENCE, the third section is ( My interest ) which contains my profession and interest, the fourth section is ( My Work ) which contains my projects which i have done before on their domain, and the last section contains ( Contact Me ) form where the recuirters or the user can contact to me for further inquery.
